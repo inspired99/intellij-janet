@@ -1,8 +1,8 @@
-### IDE Development Course at ITMO 2022.
+## IDE Development Course at ITMO 2022.
 
-## Part 1 - [Arithmetic expression parser](https://github.com/inspired99/ide-2022-itmo-spr)
+### Part 1 - [Arithmetic expression parser](https://github.com/inspired99/ide-2022-itmo-spr)
 
-## Idea Plugin for programming language [Janet](https://janet-lang.org/) 
+### Idea Plugin for programming language [Janet](https://janet-lang.org/) 
 
 
 
