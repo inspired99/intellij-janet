@@ -1,6 +1,6 @@
 IDE Development Course at ITMO 2022.
 
-Idea Plugin for programming language [Janet] (https://janet-lang.org/) 
+Idea Plugin for programming language [Janet](https://janet-lang.org/) 
 
 Part 1 - [Arithmetic expression parser](https://github.com/inspired99/ide-2022-itmo-spr)
 
