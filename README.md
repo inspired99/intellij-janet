@@ -7,3 +7,6 @@
 
 
 ![image](https://user-images.githubusercontent.com/64794482/171903820-973a3a85-c5e2-4e63-86d0-e8391b8f241c.png)
+
+
+In order to check how it works go to lexer branch.
