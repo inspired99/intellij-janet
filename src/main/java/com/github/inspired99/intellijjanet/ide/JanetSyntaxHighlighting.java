@@ -27,6 +27,8 @@ public class JanetSyntaxHighlighting extends SyntaxHighlighterBase {
         fillMap(elementTextAttributes, JanetTokenType.BUILT_IN_FUNC, JanetTextAttributeKeys.BUILT_IN_FUNC.key);
 
         elementTextAttributes.put(JanetTokenType.getIDENTIFIER(), JanetTextAttributeKeys.IDENTIFIER.key);
+        elementTextAttributes.put(JanetTokenType.getlParenthesis(), JanetTextAttributeKeys.LEFT_PAR.key);
+        elementTextAttributes.put(JanetTokenType.getrParenthesis(), JanetTextAttributeKeys.RIGHT_PAR.key);
     }
     @Override
     public @NotNull Lexer getHighlightingLexer() {

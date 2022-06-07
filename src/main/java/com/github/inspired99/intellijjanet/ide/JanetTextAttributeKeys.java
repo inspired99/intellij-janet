@@ -13,10 +13,11 @@ public enum JanetTextAttributeKeys {
     KEYWORD("Keyword", DefaultLanguageHighlighterColors.KEYWORD),
     CONSTANT("Built-in constant", DefaultLanguageHighlighterColors.CONSTANT),
     IDENTIFIER("Identifier", DefaultLanguageHighlighterColors.IDENTIFIER),
-    FUNCTION_DECL("Function//Function declaration", DefaultLanguageHighlighterColors.FUNCTION_DECLARATION),
     BINARY_OPERATIONS("Operations//Binary operations", DefaultLanguageHighlighterColors.DOT),
     UNARY_OPERATIONS("Operations//Unary operations", DefaultLanguageHighlighterColors.CLASS_NAME),
-    BUILT_IN_FUNC("Built-in functions", DefaultLanguageHighlighterColors.CLASS_REFERENCE);
+    BUILT_IN_FUNC("Built-in functions", DefaultLanguageHighlighterColors.INSTANCE_METHOD),
+    LEFT_PAR("Brackets//Left brackets", DefaultLanguageHighlighterColors.LOCAL_VARIABLE),
+    RIGHT_PAR("Brackets//Right brackets", DefaultLanguageHighlighterColors.LOCAL_VARIABLE);
 
     public TextAttributesKey fallback;
     public String humanName;
