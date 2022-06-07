@@ -8,7 +8,7 @@ To build and run plugin execute gradle task ```buildPlugin``` and ```runIde```.
 
 
 * Code Highlighting 
-* 
+
 ![Снимок экрана от 2022-06-07 03-58-46](https://user-images.githubusercontent.com/64794482/172273688-6acee961-ddbd-4a36-a645-0c63b0e1f20d.png)
 
 
