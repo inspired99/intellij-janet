@@ -1,18 +1,28 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.inspired99.intellijjanet</id>
-    <name>intellij-janet</name>
+    <name>Janet</name>
     <vendor>inspired99</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.inspired99.intellijjanet.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.inspired99.intellijjanet.services.MyProjectService"/>
+        <fileType
+                name="Janet"
+                implementationClass="com.github.inspired99.intellijjanet.lang.JanetFileType"
+                fieldName="janetFileType"
+                language="Janet"
+                extensions="janet"
+        />
+        <lang.syntaxHighlighterFactory
+                language="Janet"
+                implementationClass="com.github.inspired99.intellijjanet.ide.JanetSyntaxHighlightingFactory"
+        />
+
+        <colorSettingsPage implementation="com.github.inspired99.intellijjanet.ide.JanetColorSettingsPage"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.inspired99.intellijjanet.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
+
     </applicationListeners>
 </idea-plugin>
